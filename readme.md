@@ -29,12 +29,17 @@ java -jar dex-finder.jar -f /path/unzip_result/ -c com.example.Activity
 ```
 
 `-c` 指定想要查的类（可以同时指定多个）
+
 `-f` 指定搜索的文件或文件夹（可以同时指定多个）
+
     可以是 dex
     可以是 apk
     可以是 apk 直接解压后的文件夹
-`-r` 如果是文件夹，是否递归搜索
+
+`-r` 如果是文件夹，进行递归搜索
+
 `-us` 使用类的签名。例如：默认情况输入 java.lang.String，开启 use-sig 后，需要输入 Ljava/lang/String;
+
 `-d` 开启详细日志（其实也没多详细） 
 
 ## 示例
