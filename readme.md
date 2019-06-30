@@ -12,7 +12,7 @@
 
 ## 下载地址
 
-TODO: release
+[https://github.com/LeadroyaL/dex-finder/releases/](https://github.com/LeadroyaL/dex-finder/releases/)
 
 ## 用法
 ```
